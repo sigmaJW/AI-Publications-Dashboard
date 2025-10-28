@@ -25,11 +25,7 @@ st.markdown(
 # ----------------------------------
 # 3. 파일 업로드
 # ----------------------------------
-uploaded = st.file_uploader("📂 CSV 파일 업로드 (cleaned_ai_publications.csv)", type=["csv"])
-
-if uploaded is None:
-    st.info("⬆️ 파일을 업로드하면 분석이 시작됩니다.")
-    st.stop()
+uploaded = "ai_publications.csv"
 
 # ----------------------------------
 # 4. 데이터 불러오기
